@@ -1,10 +1,4 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Dec  5 10:04:16 2019
 
-@author: sambhav
-"""
 
 import uuid
 from django.db import models
