@@ -1,3 +1,11 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Dec  5 10:04:16 2019
+
+@author: sambhav
+"""
+
 import uuid
 from django.db import models
 from django.contrib.auth.models import BaseUserManager, AbstractBaseUser
@@ -7,7 +15,6 @@ class UserManager(BaseUserManager):
     '''
     creating a manager for a custom user model
     https://docs.djangoproject.com/en/3.0/topics/auth/customizing/#writing-a-manager-for-a-custom-user-model
-    https://docs.djangoproject.com/en/3.0/topics/auth/customizing/#a-full-example
     '''
     def create_user(self, email, password=None):
         """
